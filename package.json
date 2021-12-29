@@ -1,0 +1,10 @@
+{
+  "name": "@open-automaton/cheerio-mining-engine",
+  "version": "0.0.1",
+  "main":"src/cheerio.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "extended-emitter": "^1.1.0",
+    "postman-request": "^2.88.1-postman.30"
+  }
+}
