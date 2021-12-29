@@ -28,7 +28,6 @@ CheerioBrowser.prototype.navigateTo = function(opts, cb){
         options = {};
     }
     if(typeof options === 'string') options = {url:options};
-    console.log('OPTS', options);
     if(options.data){
         let requestOptions = {
             uri : options.url,
@@ -42,7 +41,6 @@ CheerioBrowser.prototype.navigateTo = function(opts, cb){
         }else{
             requestOptions.data = options.data;
         }
-        console.log('RQO', requestOptions);
         request(requestOptions, (err, res, data)=>{
             if(err) return cb(err);
             this.page = data.toString();
@@ -54,7 +52,6 @@ CheerioBrowser.prototype.navigateTo = function(opts, cb){
             uri : options.url
         }, (err, res, data)=>{
             if(err) return cb(err);
-            console.log('$$$', err, res, data);
             this.page = data.toString();
             this.dom = cheerio.load(this.page);
             callback(null, this.page, this);
