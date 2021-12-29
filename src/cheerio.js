@@ -1,9 +1,9 @@
-let AutomatonEngine = require('@open-automaton/automaton/src/automaton-engine');
+let AutomatonEngine = require('@open-automaton/automaton/src/automaton-engine.js');
 const Emitter = require('extended-emitter');
 
 const cheerio = require("cheerio");
 const request = require("postman-request");
-const DOM = require("@open-automaton/automaton/src/dom-tool").DOM;
+const DOM = require("@open-automaton/automaton/src/dom-tool.js").DOM;
 
 let Automaton = {};
 
