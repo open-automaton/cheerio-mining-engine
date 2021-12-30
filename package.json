@@ -3,13 +3,10 @@
   "version": "0.0.5",
   "main": "src/cheerio.js",
   "dependencies": {
-    "@open-automaton/automaton-engine": "0.0.1",
+    "@open-automaton/automaton-engine": "0.0.2",
     "cheerio": "^1.0.0-rc.10",
     "extended-emitter": "^1.1.0",
     "postman-request": "^2.88.1-postman.30"
-  },
-  "peerDependencies": {
-    "@open-automaton/automaton": "0.0.3"
   },
   "devDependencies": {
     "@open-automaton/automaton": "0.0.3"
