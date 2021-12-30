@@ -1,6 +1,6 @@
 {
   "name": "@open-automaton/cheerio-mining-engine",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "src/cheerio.js",
   "dependencies": {
     "@open-automaton/automaton-engine": "0.0.2",
@@ -9,6 +9,10 @@
     "postman-request": "^2.88.1-postman.30"
   },
   "devDependencies": {
-    "@open-automaton/automaton": "0.0.3"
+    "@open-automaton/automaton": "0.0.4",
+    "body-parser": "^1.19.1",
+    "chai": "^4.3.4",
+    "express": "^4.17.2",
+    "mocha": "^9.1.3"
   }
 }
