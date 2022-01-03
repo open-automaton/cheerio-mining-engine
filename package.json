@@ -1,6 +1,6 @@
 {
   "name": "@open-automaton/cheerio-mining-engine",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "src/cheerio.js",
   "description": "A web scraping engine to minimize resource consumption",
   "dependencies": {
