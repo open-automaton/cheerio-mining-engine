@@ -39,7 +39,7 @@ CheerioBrowser.prototype.navigateTo = function(opts, cb){
         ){
             requestOptions.json = options.data;
         }else{
-            requestOptions.data = options.data;
+            requestOptions.form = options.data;
         }
         request(requestOptions, (err, res, data)=>{
             if(err) return cb(err);

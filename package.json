@@ -2,14 +2,15 @@
   "name": "@open-automaton/cheerio-mining-engine",
   "version": "0.0.6",
   "main": "src/cheerio.js",
+  "description": "A web scraping engine to minimize resource consumption",
   "dependencies": {
-    "@open-automaton/automaton-engine": "0.0.2",
+    "@open-automaton/automaton-engine": "0.0.4",
     "cheerio": "^1.0.0-rc.10",
     "extended-emitter": "^1.1.0",
     "postman-request": "^2.88.1-postman.30"
   },
   "devDependencies": {
-    "@open-automaton/automaton": "0.0.4",
+    "@open-automaton/automaton": "0.0.5",
     "body-parser": "^1.19.1",
     "chai": "^4.3.4",
     "express": "^4.17.2",
