@@ -1,10 +1,13 @@
 {
   "name": "@open-automaton/cheerio-mining-engine",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "src/cheerio.js",
   "description": "A web scraping engine to minimize resource consumption",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -t 10000"
+  },
   "dependencies": {
-    "@open-automaton/automaton-engine": "0.0.4",
+    "@open-automaton/automaton-engine": "0.0.5",
     "cheerio": "^1.0.0-rc.10",
     "extended-emitter": "^1.1.0",
     "postman-request": "^2.88.1-postman.30"
